@@ -1,7 +1,7 @@
 const inquirer = require("inquirer")
-// ^ to install packages
 const mysql = require("mysql2/promise")
 const cTable = require("console.table");
+// ^  allows script.js to use the package.
 let connection = null
  mysql.createConnection({
     host: 'localhost',
